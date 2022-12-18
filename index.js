@@ -62,3 +62,7 @@ window.addEventListener("keydown", (e) => {
     moveRight();
   }
 });
+
+window.setInterval(function () {
+  moveRight();
+}, 5000);
