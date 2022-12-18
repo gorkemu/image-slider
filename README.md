@@ -1,5 +1,6 @@
-# image-slider
+# Image Slider
 
+[Live Preview](https://gorkemu.github.io/image-slider/)
 Image Credits:
 
 1. https://www.pexels.com/@margerretta/
