@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3d277c5392.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="gallery">
+      <div id="left-arrow" class="arrow">
+        <i class="fa-solid fa-chevron-left"></i>
+      </div>
+      <div id="img1" class="img">
+        <img src="images/img1.jpg" alt="" />
+      </div>
+      <div id="img2" class="img">
+        <img src="images/img2.jpg" alt="" />
+      </div>
+      <div id="img3" class="img">
+        <img src="images/img3.jpg" alt="" />
+      </div>
+      <div id="img4" class="img">
+        <img src="images/img4.jpg" alt="" />
+      </div>
+      <div id="img5" class="img">
+        <img src="images/img5.jpg" alt="" />
+      </div>
+      <div id="right-arrow" class="arrow">
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+    </div>
+
+    <form id="navigation-circles">
+      <div class="circle-container" id="circle-container1">
+        <input type="radio" name="circle" id="circle1" class="circle" checked />
+        <label for="circle1">1</label>
+      </div>
+      <div class="circle-container" id="circle-container2">
+        <input type="radio" name="circle" id="circle2" class="circle" />
+        <label for="circle2">2</label>
+      </div>
+      <div class="circle-container" id="circle-container3">
+        <input type="radio" name="circle" id="circle3" class="circle" />
+        <label for="circle3">3</label>
+      </div>
+      <div class="circle-container" id="circle-container4">
+        <input type="radio" name="circle" id="circle4" class="circle" />
+        <label for="circle4">4</label>
+      </div>
+      <div class="circle-container" id="circle-container5">
+        <input type="radio" name="circle" id="circle5" class="circle" />
+        <label for="circle5">5</label>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>

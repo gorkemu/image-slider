@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#gallery {
+  margin-top: 50px;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.img {
+  position: absolute;
+  transition: left 0.3s ease;
+}
+
+#img1 {
+  left: 0;
+}
+
+#img2 {
+  left: 600px;
+}
+
+#img3 {
+  left: 1200px;
+}
+
+#img4 {
+  left: 1800px;
+}
+
+#img5 {
+  left: 2400px;
+}
+
+.arrow {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+#right-arrow {
+  right: 10px;
+}
+
+#left-arrow {
+  left: 10px;
+  z-index: 1;
+}
+
+input {
+  visibility: hidden;
+}
+
+label {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 2px;
+  color: #939393;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #ec1a29;
+  color: white;
+}
+
+#navigation-circles {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.circle-container {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+}
